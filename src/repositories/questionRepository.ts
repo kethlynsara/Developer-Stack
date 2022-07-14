@@ -16,6 +16,7 @@ export async function getDetails(id: number) {
             id,
         },
         select: {
+            id: true,
             question: true,
             Answer: {
                 select: {
